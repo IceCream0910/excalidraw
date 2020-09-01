@@ -18,10 +18,10 @@
     "background": "배경색",
     "fill": "채우기 스타일",
     "strokeWidth": "선 두께",
-    "strokeStyle": "",
-    "strokeStyle_solid": "",
-    "strokeStyle_dashed": "",
-    "strokeStyle_dotted": "",
+    "strokeStyle": "선 스타일",
+    "strokeStyle_solid": "선 채우기 색",
+    "strokeStyle_dashed": "점선 간격",
+    "strokeStyle_dotted": "점선 점",
     "sloppiness": "선 스타일",
     "opacity": "불투명도",
     "textAlign": "텍스트 정렬",
@@ -32,7 +32,7 @@
     "fontFamily": "폰트 스타일",
     "onlySelected": "선택한 항목만",
     "withBackground": "배경 포함",
-    "addWatermark": "\"Made with Excalidraw\" 추가",
+    "addWatermark": "\"재미있는 칠판 놀이\" 추가",
     "handDrawn": "필기체",
     "normal": "일반",
     "code": "코드",
@@ -62,7 +62,7 @@
     "createRoom": "실시간 협업 세션 공유",
     "duplicateSelection": "복제",
     "untitled": "제목 없음",
-    "name": "",
+    "name": "이름",
     "yourName": "이름 입력",
     "madeWithExcalidraw": "Made with Excalidraw",
     "group": "그룹 생성",
@@ -111,7 +111,7 @@
     "cannotExportEmptyCanvas": "빈 캔버스를 내보낼 수 없습니다.",
     "couldNotCopyToClipboard": "클립 보드에 복사 할 수 없습니다. Chrome 브라우저에서 시도해 주세요.",
     "decryptFailed": "데이터를 복호화하지 못했습니다.",
-    "uploadedSecurly": "업로드는 종단 간 암호화로 보호되므로 Excalidraw 서버 및 타사가 콘텐츠를 읽을 수 없습니다.",
+    "uploadedSecurly": "업로드는 종단 간 암호화로 보호되므로 서버 및 타사가 콘텐츠를 읽을 수 없습니다.",
     "loadSceneOverridePrompt": "외부 파일을 불러 오면 기존 콘텐츠가 대체됩니다. 계속 진행할까요?"
   },
   "toolBar": {
@@ -157,7 +157,7 @@
   },
   "roomDialog": {
     "desc_intro": "현재 화면에 공동 작업자를 초대해 협업할 수 있습니다.",
-    "desc_privacy": "안심하세요, 세션은 종단 간 암호화를 사용하므로 당신의 작업은 비공개로 유지되며 서버조차도 작업 내용을 알 수 없습니다.",
+    "desc_privacy": "안심하세요, 세션은 종단 간 암호화를 사용하므로 당신의 작업은 비공개로 유지되며 서버조차도 작업 내용을 알 수 없지롱요.",
     "button_startSession": "세션 시작",
     "button_stopSession": "세션 중단",
     "desc_inProgressIntro": "실시간 협업 세션이 진행 중입니다.",
@@ -187,7 +187,7 @@
     "preventBinding": ""
   },
   "encrypted": {
-    "tooltip": ""
+    "tooltip": "종단 간 암호화 방식으로 안전하게 동작하고 있습니다."
   },
   "charts": {
     "noNumericColumn": "",
