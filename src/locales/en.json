@@ -59,12 +59,12 @@
     "layers": "레이어",
     "actions": "",
     "language": "언어",
-    "createRoom": "실시간 협업 세션 공유",
+    "createRoom": "실시간 공유",
     "duplicateSelection": "복제",
     "untitled": "제목 없음",
     "name": "이름",
     "yourName": "이름 입력",
-    "madeWithExcalidraw": "Made with Excalidraw",
+    "madeWithExcalidraw": "재미있는 칠판 놀이",
     "group": "그룹 생성",
     "ungroup": "그룹 해제",
     "collaborators": "공동 작업자",
@@ -99,9 +99,9 @@
     "roomDialog": "실시간 협업 시작하기",
     "createNewRoom": "방 만들기",
     "toggleFullScreen": "전체화면",
-    "toggleDarkMode": "다크 모드 켜기/끄기",
-    "toggleZenMode": "젠 모드 켜기/끄기",
-    "exitZenMode": "젠 모드 종료하기"
+    "toggleDarkMode": "다크 모드",
+    "toggleZenMode": "툴바 자동 숨김 모드",
+    "exitZenMode": "자동 숨김 모드 종료하기"
   },
   "alerts": {
     "clearReset": "모든 작업 내용을 초기화 합니다. 계속 진행할까요?",
@@ -109,7 +109,7 @@
     "couldNotLoadInvalidFile": "유효하지 않은 파일입니다.",
     "importBackendFailed": "서버로부터 불러 오지 못했습니다.",
     "cannotExportEmptyCanvas": "빈 캔버스를 내보낼 수 없습니다.",
-    "couldNotCopyToClipboard": "클립 보드에 복사 할 수 없습니다. Chrome 브라우저에서 시도해 주세요.",
+    "couldNotCopyToClipboard": "클립 보드에 복사 할 수 없습니다. 다른 브라우저에서 시도해 주세요.",
     "decryptFailed": "데이터를 복호화하지 못했습니다.",
     "uploadedSecurly": "업로드는 종단 간 암호화로 보호되므로 서버 및 타사가 콘텐츠를 읽을 수 없습니다.",
     "loadSceneOverridePrompt": "외부 파일을 불러 오면 기존 콘텐츠가 대체됩니다. 계속 진행할까요?"
@@ -157,13 +157,13 @@
   },
   "roomDialog": {
     "desc_intro": "현재 화면에 공동 작업자를 초대해 협업할 수 있습니다.",
-    "desc_privacy": "안심하세요, 세션은 종단 간 암호화를 사용하므로 당신의 작업은 비공개로 유지되며 서버조차도 작업 내용을 알 수 없지롱요.",
+    "desc_privacy": "안심하세요, 세션은 종단 간 암호화를 사용하므로 당신의 작업은 비공개로 유지되며 서버조차도 작업 내용을 알 수 없습니다.",
     "button_startSession": "세션 시작",
     "button_stopSession": "세션 중단",
     "desc_inProgressIntro": "실시간 협업 세션이 진행 중입니다.",
-    "desc_persistenceWarning": "",
-    "desc_shareLink": "공동 작업자에게 이 링크를 공유하세요.",
-    "desc_exitSession": ""
+    "desc_persistenceWarning": "씬(scene) 데이터는 P2P 방식으로 공동작업자 간에 공유되며 서버에 저장되지 않습니다. 따라서 모두 연결을 끊었을 때 파일이나 공유 가능한 링크로 내보내지 않으면 데이터가 손실됩니다.",
+    "desc_shareLink": "다른 사람에게 이 링크를 공유하세요.",
+    "desc_exitSession": "세션을 중지하면 방에서 연결이 끊어지지만 작업을 계속할 수 있습니다. 참여중인 다른 사용자에게는 영향을 미치지 않습니다."
   },
   "errorDialog": {
     "title": "에러"
@@ -190,7 +190,7 @@
     "tooltip": "종단 간 암호화 방식으로 안전하게 동작하고 있습니다."
   },
   "charts": {
-    "noNumericColumn": "",
-    "tooManyColumns": ""
+    "noNumericColumn": "숫자 열 없이 스프레드시트를 붙여넣었습니다.",
+    "tooManyColumns": "세 개 이상의 열이 있는 스프레드시트를 붙여넣었습니다."
   }
 }
